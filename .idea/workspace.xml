@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d267a27b-dcf3-4748-83f2-ad2d4b357a63" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/guitarWebApp/activity.html" beforeDir="false" afterPath="$PROJECT_DIR$/guitarWebApp/activity.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/guitarWebApp/css/common.css" beforeDir="false" afterPath="$PROJECT_DIR$/guitarWebApp/css/common.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/guitarWebApp/intro.html" beforeDir="false" afterPath="$PROJECT_DIR$/guitarWebApp/intro.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/guitarWebApp/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/guitarWebApp/main.html" afterDir="false" />
     </list>

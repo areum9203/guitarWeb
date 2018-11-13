@@ -26,23 +26,18 @@
         var dragBlue;
         var dragRed;
         var dropDiv;
-
         window.onload = function() {
             init();
         }
-
         function init() {
             dragBlue = document.getElementById("dragBlue");
             dragRed = document.getElementById("dragRed");
             dropDiv = document.getElementById("drop");
-
-            dragBlue.addEventListener("dragstart", startFunc);
-            dragRed.addEventListener("dragstart", startFunc);
-            dropDiv.addEventListener("dragstart", overFunc);
-            dropDiv.addEventListener("drop", dropFunc);
-
+            dragBlue.addEventListener("dragstart",startFunc);
+            dragRed.addEventListener("dragstart",startFunc);
+            dropDiv.addEventListener("dragover",overFunc);
+            dropDiv.addEventListener("drop",dropFunc);
         }
-
         function dropFunc(event) {
             event.preventDefault();
             var color_name = event.dataTransfer.getData("bcolor");
@@ -53,18 +48,18 @@
             console.log(color);
             event.dataTransfer.setData("bcolor",color);
         }
-        
+
         function overFunc(event) {
             event.preventDefault();
-            console.log("drop zone 영역안으로 들어옴");
+            console.log("drop zone 영역 안으로 들어옴");
         }
     </script>
 </head>
 <body>
-    <span id="dragBlue" draggable="true">blue</span>
-    <span id="dragRed" draggable="true">red</span>
+<span id="dragBlue" draggable="true">blue</span>
+<span id="dragRed" draggable="true">red</span>
 
-    <div id="drop" dropzone="copy">Hello Color</div>
+<div id="drop" dropzone="copy">Hello Color</div>
 
 </body>
 </html>

@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d267a27b-dcf3-4748-83f2-ad2d4b357a63" name="Default Changelist" comment="localstorage 처리추가">
+    <list default="true" id="d267a27b-dcf3-4748-83f2-ad2d4b357a63" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/guitarWebApp/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/guitarWebApp/main.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html5api/local_session_storage.html" beforeDir="false" afterPath="$PROJECT_DIR$/html5api/01webstrorage/local_session_storage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html5api/02drag_drop/colordata_transfer.html" beforeDir="false" afterPath="$PROJECT_DIR$/html5api/02drag_drop/colordata_transfer.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -26,33 +25,64 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="html" value="14" />
+          <entry key="html" value="18" />
+          <entry key="png" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="HTML" value="14" />
+          <entry key="HTML" value="18" />
+          <entry key="Image" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="html" value="2026" />
+          <entry key="html" value="2934" />
+          <entry key="txt" value="37" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="2026" />
+          <entry key="HTML" value="2934" />
+          <entry key="PLAIN_TEXT" value="37" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/html5api/02drag_drop/colordata_transfer.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="575">
-              <caret line="58" column="47" selection-start-line="58" selection-start-column="47" selection-end-line="58" selection-end-column="47" />
+            <state relative-caret-position="715">
+              <caret line="64" column="7" selection-start-line="64" selection-start-column="7" selection-end-line="64" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/html5api/02drag_drop/simple_dragdrop.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="249">
+              <caret line="19" column="12" lean-forward="true" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/html5api/03file/files_property.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="312">
+              <caret line="42" column="40" selection-start-line="42" selection-start-column="40" selection-end-line="42" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/html5api/15.fileDnD.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="17" column="25" lean-forward="true" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -77,7 +107,9 @@
         <option value="$PROJECT_DIR$/html5api/02drag_drop.html" />
         <option value="$PROJECT_DIR$/guitarWebApp/main.html" />
         <option value="$PROJECT_DIR$/html5api/02drag_drop/simple_dragdrop.html" />
+        <option value="$PROJECT_DIR$/html5api/03file/file.html" />
         <option value="$PROJECT_DIR$/html5api/02drag_drop/colordata_transfer.html" />
+        <option value="$PROJECT_DIR$/html5api/03file/files_property.html" />
       </list>
     </option>
   </component>
@@ -92,10 +124,10 @@
       <path value="$PROJECT_DIR$/html5api/08nodejs-websocket-server_edu/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="245" />
-    <option name="y" value="71" />
-    <option name="width" value="1400" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="33" />
+    <option name="y" value="25" />
+    <option name="width" value="1110" />
     <option name="height" value="992" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -122,7 +154,19 @@
               <item name="html5_api" type="b2602c69:ProjectViewProjectNode" />
               <item name="html5_api" type="462c0819:PsiDirectoryNode" />
               <item name="html5api" type="462c0819:PsiDirectoryNode" />
+              <item name="01webstrorage" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="html5_api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="html5_api" type="462c0819:PsiDirectoryNode" />
+              <item name="html5api" type="462c0819:PsiDirectoryNode" />
               <item name="02drag_drop" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="html5_api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="html5_api" type="462c0819:PsiDirectoryNode" />
+              <item name="html5api" type="462c0819:PsiDirectoryNode" />
+              <item name="03file" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -156,36 +200,36 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.02drag_drop.html">
-    <configuration name="02drag_drop.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/html5_api/html5api/02drag_drop/02drag_drop.html">
+  <component name="RunManager" selected="JavaScript Debug.files_property.html">
+    <configuration name="15.fileDnD.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/html5_api/html5api/15.fileDnD.html">
       <method v="2" />
     </configuration>
-    <configuration name="local_session.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/html5_api/html5api/local_session.html">
+    <configuration name="colordata_transfer.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/html5_api/html5api/02drag_drop/colordata_transfer.html">
       <method v="2" />
     </configuration>
-    <configuration name="local_session_storage.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/html5_api/html5api/01webstrorage/local_session_storage.html">
+    <configuration name="file.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/html5_api/html5api/03file/file.html">
       <method v="2" />
     </configuration>
-    <configuration name="main.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/html5_api/guitarWebApp/main.html">
+    <configuration name="files_property.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/html5_api/html5api/03file/files_property.html">
       <method v="2" />
     </configuration>
     <configuration name="simple_dragdrop.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/html5_api/html5api/02drag_drop/simple_dragdrop.html">
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="JavaScript Debug.local_session.html" />
-      <item itemvalue="JavaScript Debug.local_session_storage.html" />
+      <item itemvalue="JavaScript Debug.file.html" />
+      <item itemvalue="JavaScript Debug.15.fileDnD.html" />
+      <item itemvalue="JavaScript Debug.colordata_transfer.html" />
       <item itemvalue="JavaScript Debug.simple_dragdrop.html" />
-      <item itemvalue="JavaScript Debug.main.html" />
-      <item itemvalue="JavaScript Debug.02drag_drop.html" />
+      <item itemvalue="JavaScript Debug.files_property.html" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JavaScript Debug.02drag_drop.html" />
-        <item itemvalue="JavaScript Debug.main.html" />
+        <item itemvalue="JavaScript Debug.files_property.html" />
         <item itemvalue="JavaScript Debug.simple_dragdrop.html" />
-        <item itemvalue="JavaScript Debug.local_session_storage.html" />
-        <item itemvalue="JavaScript Debug.local_session.html" />
+        <item itemvalue="JavaScript Debug.colordata_transfer.html" />
+        <item itemvalue="JavaScript Debug.15.fileDnD.html" />
+        <item itemvalue="JavaScript Debug.file.html" />
       </list>
     </recent_temporary>
   </component>
@@ -200,7 +244,7 @@
       <option name="presentableId" value="Default" />
       <updated>1541987816690</updated>
       <workItem from="1541987818088" duration="1663000" />
-      <workItem from="1542067499025" duration="10220000" />
+      <workItem from="1542067499025" duration="14316000" />
     </task>
     <task id="LOCAL-00001" summary="localstorage 처리추가">
       <created>1542073323521</created>
@@ -209,16 +253,30 @@
       <option name="project" value="LOCAL" />
       <updated>1542073323522</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="drag &amp; drop 추가">
+      <created>1542084254350</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1542084254350</updated>
+    </task>
+    <task id="LOCAL-00003" summary="drag &amp; drop 추가">
+      <created>1542084299536</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1542084299536</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11883000" />
+    <option name="totallyTimeSpent" value="15979000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1050" extended-state="6" />
+    <frame x="33" y="25" width="1110" height="992" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2296875" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.32326007" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.24960339" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -245,7 +303,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="localstorage 처리추가" />
-    <option name="LAST_COMMIT_MESSAGE" value="localstorage 처리추가" />
+    <MESSAGE value="drag &amp; drop 추가" />
+    <option name="LAST_COMMIT_MESSAGE" value="drag &amp; drop 추가" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/HTML5Source/ch04/ex405_adv-text.html">
@@ -296,22 +355,46 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/html5api/02drag_drop/simple_dragdrop.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="387">
-          <caret line="25" column="61" selection-start-line="25" selection-start-column="61" selection-end-line="25" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/html5api/02drag_drop/02drag_drop.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-276" />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/html5api/03file/file.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="416">
+          <caret line="33" column="47" lean-forward="true" selection-start-line="33" selection-start-column="47" selection-end-line="33" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html5api/15.fileDnD.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="17" column="25" lean-forward="true" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/html5api/02drag_drop/colordata_transfer.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="575">
-          <caret line="58" column="47" selection-start-line="58" selection-start-column="47" selection-end-line="58" selection-end-column="47" />
+        <state relative-caret-position="715">
+          <caret line="64" column="7" selection-start-line="64" selection-start-column="7" selection-end-line="64" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html5api/02drag_drop/html5.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html5api/02drag_drop/simple_dragdrop.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="249">
+          <caret line="19" column="12" lean-forward="true" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html5api/03file/files_property.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="42" column="40" selection-start-line="42" selection-start-column="40" selection-end-line="42" selection-end-column="40" />
         </state>
       </provider>
     </entry>

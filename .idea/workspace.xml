@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d267a27b-dcf3-4748-83f2-ad2d4b357a63" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/guitarWebApp/activity.html" beforeDir="false" afterPath="$PROJECT_DIR$/guitarWebApp/activity.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/guitarWebApp/css/common.css" beforeDir="false" afterPath="$PROJECT_DIR$/guitarWebApp/css/common.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/guitarWebApp/intro.html" beforeDir="false" afterPath="$PROJECT_DIR$/guitarWebApp/intro.html" afterDir="false" />
+    <list default="true" id="d267a27b-dcf3-4748-83f2-ad2d4b357a63" name="Default Changelist" comment="localstorage 처리추가">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/guitarWebApp/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/guitarWebApp/main.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html5api/local_session_storage.html" beforeDir="false" afterPath="$PROJECT_DIR$/html5api/01webstrorage/local_session_storage.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -21,36 +20,51 @@
       <usages-collector id="statistics.lifecycle.project">
         <counts>
           <entry key="project.open.time.1" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.open.time.63" value="1" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="html" value="1" />
+          <entry key="html" value="14" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="HTML" value="1" />
+          <entry key="HTML" value="14" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="html" value="2026" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="HTML" value="2026" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/guitarWebApp/main.html">
+        <entry file="file://$PROJECT_DIR$/html5api/02drag_drop/colordata_transfer.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="628">
-              <caret line="38" column="7" lean-forward="true" selection-start-line="38" selection-start-column="7" selection-end-line="38" selection-end-column="7" />
-              <folding>
-                <element signature="n#style#0;n#iframe#0;n#section#0;n#article#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
+            <state relative-caret-position="575">
+              <caret line="58" column="47" selection-start-line="58" selection-start-column="47" selection-end-line="58" selection-end-column="47" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -58,7 +72,12 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/html5api/local_session.html" />
+        <option value="$PROJECT_DIR$/html5api/local_session_storage.html" />
+        <option value="$PROJECT_DIR$/html5api/02drag_drop.html" />
         <option value="$PROJECT_DIR$/guitarWebApp/main.html" />
+        <option value="$PROJECT_DIR$/html5api/02drag_drop/simple_dragdrop.html" />
+        <option value="$PROJECT_DIR$/html5api/02drag_drop/colordata_transfer.html" />
       </list>
     </option>
   </component>
@@ -73,7 +92,7 @@
       <path value="$PROJECT_DIR$/html5api/08nodejs-websocket-server_edu/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="245" />
     <option name="y" value="71" />
     <option name="width" value="1400" />
@@ -97,7 +116,13 @@
             <path>
               <item name="html5_api" type="b2602c69:ProjectViewProjectNode" />
               <item name="html5_api" type="462c0819:PsiDirectoryNode" />
-              <item name="guitarWebApp" type="462c0819:PsiDirectoryNode" />
+              <item name="html5api" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="html5_api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="html5_api" type="462c0819:PsiDirectoryNode" />
+              <item name="html5api" type="462c0819:PsiDirectoryNode" />
+              <item name="02drag_drop" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -107,10 +132,17 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/guitarWebApp" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\html5_api\html5api\02drag_drop" />
+      <recent name="C:\html5_api\html5api\01webstrorage" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -124,6 +156,39 @@
       </list>
     </option>
   </component>
+  <component name="RunManager" selected="JavaScript Debug.02drag_drop.html">
+    <configuration name="02drag_drop.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/html5_api/html5api/02drag_drop/02drag_drop.html">
+      <method v="2" />
+    </configuration>
+    <configuration name="local_session.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/html5_api/html5api/local_session.html">
+      <method v="2" />
+    </configuration>
+    <configuration name="local_session_storage.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/html5_api/html5api/01webstrorage/local_session_storage.html">
+      <method v="2" />
+    </configuration>
+    <configuration name="main.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/html5_api/guitarWebApp/main.html">
+      <method v="2" />
+    </configuration>
+    <configuration name="simple_dragdrop.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/html5_api/html5api/02drag_drop/simple_dragdrop.html">
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="JavaScript Debug.local_session.html" />
+      <item itemvalue="JavaScript Debug.local_session_storage.html" />
+      <item itemvalue="JavaScript Debug.simple_dragdrop.html" />
+      <item itemvalue="JavaScript Debug.main.html" />
+      <item itemvalue="JavaScript Debug.02drag_drop.html" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.02drag_drop.html" />
+        <item itemvalue="JavaScript Debug.main.html" />
+        <item itemvalue="JavaScript Debug.simple_dragdrop.html" />
+        <item itemvalue="JavaScript Debug.local_session_storage.html" />
+        <item itemvalue="JavaScript Debug.local_session.html" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -135,23 +200,27 @@
       <option name="presentableId" value="Default" />
       <updated>1541987816690</updated>
       <workItem from="1541987818088" duration="1663000" />
+      <workItem from="1542067499025" duration="10220000" />
     </task>
+    <task id="LOCAL-00001" summary="localstorage 처리추가">
+      <created>1542073323521</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1542073323522</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1663000" />
+    <option name="totallyTimeSpent" value="11883000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="245" y="71" width="1400" height="992" extended-state="1" />
-    <editor active="true" />
+    <frame x="-9" y="-9" width="1938" height="1050" extended-state="6" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.32150775" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2296875" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.24960339" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -159,6 +228,10 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -170,14 +243,75 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="localstorage 처리추가" />
+    <option name="LAST_COMMIT_MESSAGE" value="localstorage 처리추가" />
+  </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/HTML5Source/ch04/ex405_adv-text.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="16" column="39" selection-start-line="16" selection-start-column="39" selection-end-line="16" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HTML5Source/ch04/ex406_color.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HTML5Source/ch07/ex1103_multimedia_control.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html5api/local_session.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="755">
+          <caret line="47" column="7" selection-start-line="47" selection-start-column="7" selection-end-line="47" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html5api/02drag_drop.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="16" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html5api/01webstrorage/local_session_storage.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="21" column="91" selection-start-line="21" selection-start-column="91" selection-end-line="21" selection-end-column="91" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/guitarWebApp/main.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="628">
-          <caret line="38" column="7" lean-forward="true" selection-start-line="38" selection-start-column="7" selection-end-line="38" selection-end-column="7" />
+        <state relative-caret-position="392">
+          <caret line="24" column="65" selection-start-line="24" selection-start-column="65" selection-end-line="24" selection-end-column="65" />
           <folding>
             <element signature="n#style#0;n#iframe#0;n#section#0;n#article#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html5api/02drag_drop/simple_dragdrop.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="387">
+          <caret line="25" column="61" selection-start-line="25" selection-start-column="61" selection-end-line="25" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html5api/02drag_drop/02drag_drop.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-276" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html5api/02drag_drop/colordata_transfer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="575">
+          <caret line="58" column="47" selection-start-line="58" selection-start-column="47" selection-end-line="58" selection-end-column="47" />
         </state>
       </provider>
     </entry>

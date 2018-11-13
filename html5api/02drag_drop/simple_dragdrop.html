@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        #dropDiv {
+            border: 2px solid black;
+            width: 300px;
+            height: 200px;
+        }
+        #statusSpan {
+            border: 2px solid black;
+            width: 100px;
+            height: 50px;
+        }
+    </style>
+    <script>
+        function start(ev) {
+            document.getElementById("dragDiv").addEventListener("drag",move);
+            document.getElementById("dragImg").addEventListener("drag",move);
+        }
+        var myspan;
+        function move(ev) {
+            myspan = document.getElementById("statusSpan");
+            myspan.innerHTML = "X축 :" + ev.x + "Y축 :" + ev.y;
+        }
+    </script>
+</head>
+<body>
+    <h1>Drag & Drop</h1>
+    <div draggable="true" id="dragDiv" ondragstart="start(event)">
+        드래그 & 드랍
+    </div>
+    <img src="html5.png" alt="html5이미지" draggable="true" ondragstart="start(event)" id="dragImg" /><br />
+    <span id="statusSpan"></span>
+    <div dropzone="copy" id="dropDiv"></div>
+</body>
+</html>
